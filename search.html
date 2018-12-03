@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Menu</title>
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="contents">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 style="text-align:center; ">Search</h1>
+				</div>
+				<div class="col-md-12 form-group">
+					<input type="text" class="search-string form-control" style="width: 70%; float: left;">
+					<button class="btn btn-primary btn-search" style="width: 25%;">Search</button>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="search-results">
+		</div>
+	</div>
+	<script>
+		var findInFiles = require('find-in-files');
+		window.$ = require('./jquery.min.js');
+		$(function(){
+
+		})
+	</script>
+
+</body>
+</html>
